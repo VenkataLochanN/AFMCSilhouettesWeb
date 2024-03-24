@@ -1,0 +1,286 @@
+<script type="module">
+    import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+
+    new fairyDustCursor({
+        colors: ["#7D3E00", "#FFEED8", "#FFC170"],
+    });
+</script>
+
+<div id="spinner-wrapper" style="height:100vh; width:100%; display:flex; align-items:center; justify-content:center;">
+    <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px">
+        <defs>
+            <linearGradient id="pl-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#000" />
+                <stop offset="100%" stop-color="#fff" />
+            </linearGradient>
+            <mask id="pl-mask">
+                <rect x="0" y="0" width="128" height="128" fill="url(#pl-grad)" />
+            </mask>
+        </defs>
+        <g stroke-linecap="round" stroke-width="8" stroke-dasharray="32 32">
+            <g stroke="hsl(193,90%,50%)">
+                <line class="pl__line1" x1="4" y1="48" x2="4" y2="80" />
+                <line class="pl__line2" x1="19" y1="48" x2="19" y2="80" />
+                <line class="pl__line3" x1="34" y1="48" x2="34" y2="80" />
+                <line class="pl__line4" x1="49" y1="48" x2="49" y2="80" />
+                <line class="pl__line5" x1="64" y1="48" x2="64" y2="80" />
+                <g transform="rotate(180,79,64)">
+                    <line class="pl__line6" x1="79" y1="48" x2="79" y2="80" />
+                </g>
+                <g transform="rotate(180,94,64)">
+                    <line class="pl__line7" x1="94" y1="48" x2="94" y2="80" />
+                </g>
+                <g transform="rotate(180,109,64)">
+                    <line class="pl__line8" x1="109" y1="48" x2="109" y2="80" />
+                </g>
+                <g transform="rotate(180,124,64)">
+                    <line class="pl__line9" x1="124" y1="48" x2="124" y2="80" />
+                </g>
+            </g>
+            <g stroke="hsl(283,90%,50%)" mask="url(#pl-mask)">
+                <line class="pl__line1" x1="4" y1="48" x2="4" y2="80" />
+                <line class="pl__line2" x1="19" y1="48" x2="19" y2="80" />
+                <line class="pl__line3" x1="34" y1="48" x2="34" y2="80" />
+                <line class="pl__line4" x1="49" y1="48" x2="49" y2="80" />
+                <line class="pl__line5" x1="64" y1="48" x2="64" y2="80" />
+                <g transform="rotate(180,79,64)">
+                    <line class="pl__line6" x1="79" y1="48" x2="79" y2="80" />
+                </g>
+                <g transform="rotate(180,94,64)">
+                    <line class="pl__line7" x1="94" y1="48" x2="94" y2="80" />
+                </g>
+                <g transform="rotate(180,109,64)">
+                    <line class="pl__line8" x1="109" y1="48" x2="109" y2="80" />
+                </g>
+                <g transform="rotate(180,124,64)">
+                    <line class="pl__line9" x1="124" y1="48" x2="124" y2="80" />
+                </g>
+            </g>
+        </g>
+    </svg>
+</div>
+
+<body style="background-color:black;">
+
+
+
+
+    <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+    </div>
+
+    <section>
+        <div class="staranim"></div>
+        <div class="staranim"></div>
+        <div class="staranim"></div>
+        <div class="staranim"></div>
+    </section>
+
+    <div id="webcont">
+
+        <div id="topbgindex" class="topbg" alt="Top Bg">
+            <div id="topshit" class="top" onmouseover="chbg('#10141b')" onmouseout="chbg('')">
+                <center>
+                    <div class="topmost">
+                        <div class="logocont">
+                            <span>
+                                <!--SideBtnAnim-->
+                                <div id="opencont" class="topbtn" onclick="toggleshort()" style="margin-left:20px;">
+                                    <hr id="btnline" class="btnonebef btnlineone" height="2px" width="30px" color="">
+                                    <hr id="btnline" class="btntwobef btnlinetwo" height="2px" width="30px" color="">
+                                    <hr id="btnline" class="btnthreebef btnlinethree" height="2px" width="30px"
+                                        color="">
+                                </div>
+                            </span>
+                        </div>
+                        <div class="logocont"><a href="https://www.afmcsilhouettes.in">
+                                <span style="height:70px;width:70px;"><img
+                                        src="https://afmcsilhouettes.in/wp-content/uploads/2024/01/Silho-Logo-transparent-bg-1.png"
+                                        alt="home" href="https://www.afmcsilhouettes.in" class="silhologo" height="70px"
+                                        width="70px" style="border-radius:100%;"></span>
+                            </a></div>
+                        <div class="logocont"><span><a id="regbtn" style="float:right;" data-text="Register"
+                                    class="btn-mix" href="https://afmcsilhouettes.in/register/">Register</a></span>
+                        </div>
+                    </div>
+                    <!--<p style="font-family:bn; font-size:30px;">Silhouettes AFMC</p>-->
+
+                    <!-- Header Section -->
+                    <div id="hf" class="headerfull" onmouseover="chb('#242633')" onmouseout="chb('')">
+                        <a class="headerlink" href="https://afmcsilhouettes.in/">Home</a>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/schedule/">Schedule</a>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/events/">Events</a>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/accommodation/">Accommodation</a>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/sponsors/">Sponsors</a>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/team/">The Team</a>
+                    </div>
+
+                    <!-- Header Section -->
+                    <div class="headershort">
+                        <a class="headerlink" href="https://afmcsilhouettes.in/">Home</a><br>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/schedule/">Schedule</a><br>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/events/">Events</a><br>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/accommodation/">Accommodation</a><br>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/sponsors/">Sponsors</a><br>
+                        <a class="headerlink" href="https://afmcsilhouettes.in/team/">The Team</a><br>
+                    </div>
+
+                    <div class="btmdiv" style="width:100%; height:1px;" />
+                </center>
+            </div>
+
+        </div>
+        <center>
+            <!--<p style="font-family:mason; font-size:20px;">Map to heaven is available at the bottom of this page.</p>-->
+            <hr id="divider1" class="divider">
+
+            <h1 style="font-family:mason;">Did you know?</h1>
+
+            <!--<p style="font-family:courier; font-size:16px;">26 Dec 2023</p>-->
+            <p style="font-family:bn; font-size:20px; width:90vw">
+                The Silhouettes just got a serious upgrade – a real-life
+                Hogwarts techie joined their team! Forget debugging,
+                this wizard's got spells to solve coding woes faster
+                than a Patronus Charm against Dementors. Expect their
+                projects to get seriously magical, with potions so potent
+                they might just rewrite the laws of physics! Buckle up, Muggles,
+                tech's about to get a whole lot more enchanting. 🪄✨
+            </p>
+        </center>
+
+        <hr id="divider2" class="divider">
+        <center>
+            <img class="mainposter" src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Silho-24-Main-Poster.png"
+                alt="Main Poster" height="auto" style="border-radius:15px; max-width:600px; width:95%;">
+        </center>
+        <!-- <hr id="divider3" class="divider"> -->
+        <center>
+            <h1 style="font-family:mason; margin-left: 10px; margin-right:10px;">Silhouettes at a glimpse</h1>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">1 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture2.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">2 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture1.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture3.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture6.png" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture3-1.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture10.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture7.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture4.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture1-1.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture8.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture5.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture2-1.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="https://afmcsilhouettes.in/wp-content/uploads/2024/02/Picture9.jpg" style="width:90%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path id="ps"
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path id="ns"
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg>
+
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+            </div>
+
+        </center>
+
+        <!-- <hr id="divider4" class="divider"> -->
+        <center>
+            <img class="ssf" src="https://afmcsilhouettes.in/wp-content/uploads/2024/03/Story-so-far.png"
+                alt="Stories so far..." height="auto" style="border-radius:15px; max-width:1000px; width:95%;">
+
+        </center>
+    </div>
+
+    <!-- wp:template-part {"slug":"footer","theme":"blockstarter","area":"footer"} /-->
+
+    </div>
+</body>

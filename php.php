@@ -549,41 +549,6 @@
                     console.error(error);
                 }
                 
-                // try {
-                // addListener('divider3', 'visible', function() {
-                // document.getElementById("divider3").style.width = "60%";
-                // });
-                // } catch (error) {
-                // console.error(error);
-                // }
-                
-                
-                
-                // try {
-                // addListener('divider3', 'invisible', function() {
-                // document.getElementById("divider3").style.width = "0";
-                // });
-                // } catch (error) {
-                // console.error(error);
-                // }
-                
-                // try {
-                // addListener('divider4', 'visible', function() {
-                // document.getElementById("divider4").style.width = "60%";
-                // });
-                // } catch (error) {
-                // console.error(error);
-                // }
-                
-                
-                
-                // try {
-                // addListener('divider4', 'invisible', function() {
-                // document.getElementById("divider4").style.width = "0";
-                // });
-                // } catch (error) {
-                // console.error(error);
-                // }
                 
             }
             
@@ -666,79 +631,7 @@
             
             window.onload = function() {
                 
-                /* try {
-                    addListener('goldborder1', 'visible', function() {
-                    document.getElementById("topgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder1").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder1").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    try {
-                    addListener('goldborder2', 'visible', function() {
-                    document.getElementById("topgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder2").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder2").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'visible', function() {
-                    document.getElementById("topgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder3").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder3").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder1', 'invisible', function() {
-                    document.getElementById("topgoldborder1").style.width = "0";
-                    document.getElementById("bottomgoldborder1").style.width = "0";
-                    document.getElementById("leftgoldborder1").style.height = "0";
-                    document.getElementById("rightgoldborder1").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder2', 'invisible', function() {
-                    document.getElementById("topgoldborder2").style.width = "0";
-                    document.getElementById("bottomgoldborder2").style.width = "0";
-                    document.getElementById("leftgoldborder2").style.height = "0";
-                    document.getElementById("rightgoldborder2").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'invisible', function() {
-                    document.getElementById("topgoldborder3").style.width = "0";
-                    document.getElementById("bottomgoldborder3").style.width = "0";
-                    document.getElementById("leftgoldborder3").style.height = "0";
-                    document.getElementById("rightgoldborder3").style.height = "0";
-                    });
-                    } catch (error) {
-                    onsole.error(error);
-                } */
-                
+               
                 
                 
                 //width anims for dividers
@@ -759,26 +652,6 @@
                     } catch (error) {
                     console.error(error);
                 }
-                
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('divider2', 'invisible', function() {
-                    document.getElementById("divider2").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                */
             }
             
             
@@ -860,121 +733,7 @@
             }
             
             window.onload = function() {
-                
-                /* try {
-                    addListener('goldborder1', 'visible', function() {
-                    document.getElementById("topgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder1").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder1").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    try {
-                    addListener('goldborder2', 'visible', function() {
-                    document.getElementById("topgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder2").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder2").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'visible', function() {
-                    document.getElementById("topgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder3").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder3").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder1', 'invisible', function() {
-                    document.getElementById("topgoldborder1").style.width = "0";
-                    document.getElementById("bottomgoldborder1").style.width = "0";
-                    document.getElementById("leftgoldborder1").style.height = "0";
-                    document.getElementById("rightgoldborder1").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder2', 'invisible', function() {
-                    document.getElementById("topgoldborder2").style.width = "0";
-                    document.getElementById("bottomgoldborder2").style.width = "0";
-                    document.getElementById("leftgoldborder2").style.height = "0";
-                    document.getElementById("rightgoldborder2").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'invisible', function() {
-                    document.getElementById("topgoldborder3").style.width = "0";
-                    document.getElementById("bottomgoldborder3").style.width = "0";
-                    document.getElementById("leftgoldborder3").style.height = "0";
-                    document.getElementById("rightgoldborder3").style.height = "0";
-                    });
-                    } catch (error) {
-                    onsole.error(error);
-                } */
-                
-                
-                
-                //width anims for dividers
-                
-                try {
-                    addListener('divider1', 'visible', function() {
-                        document.getElementById("divider1").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                }
-                
-                
-                try {
-                    addListener('divider1', 'invisible', function() {
-                        document.getElementById("divider1").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                }
-                
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('divider2', 'invisible', function() {
-                    document.getElementById("divider2").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                */
-            }
+                        }
             
             
         </script>
@@ -1055,82 +814,6 @@
             }
             
             window.onload = function() {
-                
-                /* try {
-                    addListener('goldborder1', 'visible', function() {
-                    document.getElementById("topgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder1").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder1").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    try {
-                    addListener('goldborder2', 'visible', function() {
-                    document.getElementById("topgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder2").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder2").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'visible', function() {
-                    document.getElementById("topgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder3").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder3").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder1', 'invisible', function() {
-                    document.getElementById("topgoldborder1").style.width = "0";
-                    document.getElementById("bottomgoldborder1").style.width = "0";
-                    document.getElementById("leftgoldborder1").style.height = "0";
-                    document.getElementById("rightgoldborder1").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder2', 'invisible', function() {
-                    document.getElementById("topgoldborder2").style.width = "0";
-                    document.getElementById("bottomgoldborder2").style.width = "0";
-                    document.getElementById("leftgoldborder2").style.height = "0";
-                    document.getElementById("rightgoldborder2").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'invisible', function() {
-                    document.getElementById("topgoldborder3").style.width = "0";
-                    document.getElementById("bottomgoldborder3").style.width = "0";
-                    document.getElementById("leftgoldborder3").style.height = "0";
-                    document.getElementById("rightgoldborder3").style.height = "0";
-                    });
-                    } catch (error) {
-                    onsole.error(error);
-                } */
-                
-                
-                
                 //width anims for dividers
                 
                 try {
@@ -1150,25 +833,6 @@
                     console.error(error);
                 }
                 
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('divider2', 'invisible', function() {
-                    document.getElementById("divider2").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                */
             }
             
             
@@ -1250,82 +914,7 @@
             }
             
             window.onload = function() {
-                
-                /* try {
-                    addListener('goldborder1', 'visible', function() {
-                    document.getElementById("topgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder1").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder1").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    try {
-                    addListener('goldborder2', 'visible', function() {
-                    document.getElementById("topgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder2").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder2").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'visible', function() {
-                    document.getElementById("topgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder3").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder3").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder1', 'invisible', function() {
-                    document.getElementById("topgoldborder1").style.width = "0";
-                    document.getElementById("bottomgoldborder1").style.width = "0";
-                    document.getElementById("leftgoldborder1").style.height = "0";
-                    document.getElementById("rightgoldborder1").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder2', 'invisible', function() {
-                    document.getElementById("topgoldborder2").style.width = "0";
-                    document.getElementById("bottomgoldborder2").style.width = "0";
-                    document.getElementById("leftgoldborder2").style.height = "0";
-                    document.getElementById("rightgoldborder2").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'invisible', function() {
-                    document.getElementById("topgoldborder3").style.width = "0";
-                    document.getElementById("bottomgoldborder3").style.width = "0";
-                    document.getElementById("leftgoldborder3").style.height = "0";
-                    document.getElementById("rightgoldborder3").style.height = "0";
-                    });
-                    } catch (error) {
-                    onsole.error(error);
-                } */
-                
-                
-                
+            
                 //width anims for dividers
                 
                 try {
@@ -1345,25 +934,6 @@
                     console.error(error);
                 }
                 
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('divider2', 'invisible', function() {
-                    document.getElementById("divider2").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                */
             }
             
             
@@ -1445,82 +1015,7 @@
             }
             
             window.onload = function() {
-                
-                /* try {
-                    addListener('goldborder1', 'visible', function() {
-                    document.getElementById("topgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder1").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder1").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    try {
-                    addListener('goldborder2', 'visible', function() {
-                    document.getElementById("topgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder2").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder2").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'visible', function() {
-                    document.getElementById("topgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder3").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder3").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder1', 'invisible', function() {
-                    document.getElementById("topgoldborder1").style.width = "0";
-                    document.getElementById("bottomgoldborder1").style.width = "0";
-                    document.getElementById("leftgoldborder1").style.height = "0";
-                    document.getElementById("rightgoldborder1").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder2', 'invisible', function() {
-                    document.getElementById("topgoldborder2").style.width = "0";
-                    document.getElementById("bottomgoldborder2").style.width = "0";
-                    document.getElementById("leftgoldborder2").style.height = "0";
-                    document.getElementById("rightgoldborder2").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'invisible', function() {
-                    document.getElementById("topgoldborder3").style.width = "0";
-                    document.getElementById("bottomgoldborder3").style.width = "0";
-                    document.getElementById("leftgoldborder3").style.height = "0";
-                    document.getElementById("rightgoldborder3").style.height = "0";
-                    });
-                    } catch (error) {
-                    onsole.error(error);
-                } */
-                
-                
-                
+            
                 //width anims for dividers
                 
                 try {
@@ -1540,25 +1035,7 @@
                     console.error(error);
                 }
                 
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('divider2', 'invisible', function() {
-                    document.getElementById("divider2").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                */
+            
             }
             
             
@@ -1641,80 +1118,6 @@
             
             window.onload = function() {
                 
-                /* try {
-                    addListener('goldborder1', 'visible', function() {
-                    document.getElementById("topgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder1").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder1").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder1").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    try {
-                    addListener('goldborder2', 'visible', function() {
-                    document.getElementById("topgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder2").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder2").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder2").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'visible', function() {
-                    document.getElementById("topgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("bottomgoldborder3").style.width = "calc((100%) + 30px)";
-                    document.getElementById("leftgoldborder3").style.height = "calc((100%) + 30px)";
-                    document.getElementById("rightgoldborder3").style.height = "calc((100%) + 30px)";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder1', 'invisible', function() {
-                    document.getElementById("topgoldborder1").style.width = "0";
-                    document.getElementById("bottomgoldborder1").style.width = "0";
-                    document.getElementById("leftgoldborder1").style.height = "0";
-                    document.getElementById("rightgoldborder1").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder2', 'invisible', function() {
-                    document.getElementById("topgoldborder2").style.width = "0";
-                    document.getElementById("bottomgoldborder2").style.width = "0";
-                    document.getElementById("leftgoldborder2").style.height = "0";
-                    document.getElementById("rightgoldborder2").style.height = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('goldborder3', 'invisible', function() {
-                    document.getElementById("topgoldborder3").style.width = "0";
-                    document.getElementById("bottomgoldborder3").style.width = "0";
-                    document.getElementById("leftgoldborder3").style.height = "0";
-                    document.getElementById("rightgoldborder3").style.height = "0";
-                    });
-                    } catch (error) {
-                    onsole.error(error);
-                } */
-                
-                
                 
                 //width anims for dividers
                 
@@ -1735,25 +1138,6 @@
                     console.error(error);
                 }
                 
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                    
-                    
-                    
-                    try {
-                    addListener('divider2', 'invisible', function() {
-                    document.getElementById("divider2").style.width = "0";
-                    });
-                    } catch (error) {
-                    console.error(error);
-                    }
-                */
             }
             
             
@@ -1927,26 +1311,6 @@
                     } catch (error) {
                     console.error(error);
                 }
-                
-                
-                /* try {
-                    addListener('divider2', 'visible', function() {
-                    document.getElementById("divider2").style.width = "60%";
-                    });
-                    } catch (error) {
-                console.error(error);
-                }
-                
-                
-                
-                try {
-                addListener('divider2', 'invisible', function() {
-                document.getElementById("divider2").style.width = "0";
-                });
-                } catch (error) {
-                console.error(error);
-                }
-                */
                 }
                 
                 

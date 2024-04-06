@@ -227,40 +227,6 @@ pre {
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
-
-#regbtn{
-	display: flex;
-	height: 40px;
-	margin-right:10px;
-	width:120px;
-	
-	justify-content: center;
-	align-items: center;
-	background-color:#6b63b5;
-	font-family: "Sofia Pro", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-style: normal;
-	font-weight: 900;
-	letter-spacing: 1.5px;
-	cursor: pointer;
-	border-radius: 100px;
-	text-decoration: none;
-	transition: #6b63b5 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
-}
-.topmost{
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}
-.logocont {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-}
-
-.logocont:first-child > span { margin-right: auto; }
-
-.logocont:last-child  > span { margin-left: auto;  }
-/*--------------------------------------------------------------------------------------------------------*/
 .contimg {
 	border-radius: 25px;
 	border-style: solid;
@@ -1322,6 +1288,37 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 #regbtn:hover{
+	background-color:#6b63b5;
+}
+
+.btnholdr {
+	height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#regbtn-main{
+	display: flex;
+	height: 30vh;
+	width:60%;
+	margin:30px;
+	justify-content: center;
+	align-items: center;
+	background-color:#0d1a36;
+	font-family: "Sofia Pro", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	border-radius: 40px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	font-size:50px;
+	font-weight:100;
+}
+#regbtn-main:hover{
 	background-color:#6b63b5;
 }
 .topmost{

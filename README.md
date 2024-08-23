@@ -1,5 +1,5 @@
 # AFMCSilhouettesWeb
-This contains the files for the website http://www.afmcsilhouettes.in
+This contains the files for the website http://www.afmcsilhouettes.in of 2024
 
 This website was made with wordpress and files will be uploaded separately.
-//This is still incomplete.. I'll upload all the files in a while as I'm quite lazy.
+//All files have not been uploaded. It is still incomplete..
